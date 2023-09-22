@@ -12,7 +12,6 @@ const SQLInput: React.FC = () => {
 
   const handleSubmit = () => {
     dispatch(submitSearchQuery({ query }));
-    setQuery("");
   };
 
   return (
